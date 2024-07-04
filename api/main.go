@@ -11,7 +11,6 @@ import (
 func main() {
 	fmt.Println("Loading config...")
 	config.Load()
-	fmt.Println(config.ApiPort)
 
 	fmt.Println("Setting up routes...")
 	r := router.Generate()
